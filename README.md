@@ -1,4 +1,4 @@
-# react-vite-storybook-typescript-starter
+# react-section-dividers
 
 A collapsible timeline component for React written in Typescript.
 
@@ -6,10 +6,10 @@ A collapsible timeline component for React written in Typescript.
 
 Add the package with the package manager via NPMs or GitHubs registry of choice to your project:
 
-- **yarn**: `yarn add react-vite-storybook-typescript-starter`
-- **npm**: `npm install react-vite-storybook-typescript-starter`
-- **pnpm**: `pnpm add react-vite-storybook-typescript-starter`
-- **npx**: `npx -p react-vite-storybook-typescript-starter`
+- **yarn**: `yarn add react-section-dividers`
+- **npm**: `npm install react-section-dividers`
+- **pnpm**: `pnpm add react-section-dividers`
+- **npx**: `npx -p react-section-dividers`
 
 ## Resources
 

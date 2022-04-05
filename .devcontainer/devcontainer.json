@@ -1,5 +1,5 @@
 {
-  "name": "react-vite-storybook-typescript-starter",
+  "name": "react-section-dividers",
   "build": {
     "dockerfile": "Dockerfile",
     "args": { "VARIANT": "16" }

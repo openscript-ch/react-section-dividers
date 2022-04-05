@@ -1,6 +1,6 @@
 {
-  "name": "react-vite-storybook-typescript-starter",
-  "version": "0.1.4",
+  "name": "react-section-dividers",
+  "version": "0.2.0",
   "description": "A collapsible timeline component for React.",
   "keywords": [
     "react",
@@ -10,25 +10,25 @@
     "interactive timeline",
     "collapsible timeline"
   ],
-  "homepage": "https://github.com/openscript-ch/react-vite-storybook-typescript-starter",
+  "homepage": "https://github.com/openscript-ch/react-section-dividers",
   "repository": {
     "type": "git",
-    "url": "https://github.com/openscript-ch/react-vite-storybook-typescript-starter"
+    "url": "https://github.com/openscript-ch/react-section-dividers"
   },
   "bugs": {
-    "url": "https://github.com/openscript-ch/react-vite-storybook-typescript-starter/issues"
+    "url": "https://github.com/openscript-ch/react-section-dividers/issues"
   },
   "author": "openscript GmbH <hi+npm@openscript.ch>",
   "license": "MIT",
   "files": [
     "dist"
   ],
-  "main": "./dist/react-vite-storybook-typescript-starter.umd.js",
-  "module": "./dist/react-vite-storybook-typescript-starter.es.js",
+  "main": "./dist/react-section-dividers.umd.js",
+  "module": "./dist/react-section-dividers.es.js",
   "exports": {
     ".": {
-      "import": "./dist/react-vite-storybook-typescript-starter.es.js",
-      "require": "./dist/react-vite-storybook-typescript-starter.umd.js"
+      "import": "./dist/react-section-dividers.es.js",
+      "require": "./dist/react-section-dividers.umd.js"
     }
   },
   "scripts": {
