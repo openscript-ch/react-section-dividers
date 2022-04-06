@@ -1,2 +1,1 @@
-export { CollapsibleTimeline } from './components/CollapsibleTimeline';
-export { TimelineEntry } from './components/TimelineEntry';
+export { AslantDivider } from './components/AslantDivider';

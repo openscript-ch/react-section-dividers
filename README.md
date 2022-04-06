@@ -1,10 +1,10 @@
 # react-section-dividers
 
-A collapsible timeline component for React written in Typescript.
+A collection of React components written in Typescript dividing sections in a creative manner.
 
 ## Getting started
 
-Add the package with the package manager via NPMs or GitHubs registry of choice to your project:
+Add the package with the package manager via NPMs registry of choice to your project:
 
 - **yarn**: `yarn add react-section-dividers`
 - **npm**: `npm install react-section-dividers`
