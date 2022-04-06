@@ -42,8 +42,8 @@
     "release:patch": "standard-version --release-as patch && git push --follow-tags",
     "release:create-github-release": "conventional-github-releaser -p angular",
     "serve": "vite preview",
-    "start": "start-storybook -p 6006",
-    "storybook": "start-storybook -p 6006",
+    "start": "start-storybook -p 6007",
+    "storybook": "start-storybook -p 6007",
     "test": "vitest",
     "coverage": "vitest --coverage",
     "upgrade-interactive": "npm-check -u"

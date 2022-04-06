@@ -1,4 +1,7 @@
+import { css } from '@emotion/react';
+import { Fragment } from 'react';
 import { AslantDivider } from '../src';
+import { SectionDummy } from './components/SectionDummy';
 
 export default {
   title: 'Aslant Divider',
@@ -11,5 +14,15 @@ export default {
 };
 
 export function Basic() {
-  return <AslantDivider />;
+  return (
+    <Fragment>
+      <AslantDivider />
+      <SectionDummy
+        css={css`
+          background-color: black;
+          color: white;
+        `}
+      />
+    </Fragment>
+  );
 }
