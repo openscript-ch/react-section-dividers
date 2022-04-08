@@ -48,14 +48,17 @@ export function Basic({
         css={css`
           background-color: ${secondaryColor};
           color: #000;
+          padding-bottom: ${height}px;
         `}
       />
       <AslantSection
         angle={angle}
         height={height}
-        colors={{ primaryColor, secondaryColor }}
+        primaryColor={primaryColor}
+        secondaryColor={secondaryColor}
         css={css`
           color: #fff;
+          margin-top: -${height}px;
         `}
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, placeat velit? Sapiente delectus, quo perspiciatis, veniam at porro

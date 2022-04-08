@@ -50,7 +50,7 @@ export function Basic({
           color: #000;
         `}
       />
-      <AslantDivider angle={angle} height={height} colors={{ primaryColor, secondaryColor }} />
+      <AslantDivider angle={angle} height={height} primaryColor={primaryColor} secondaryColor={secondaryColor} />
       <SectionDummy
         css={css`
           background-color: ${primaryColor};
