@@ -17,7 +17,7 @@ export default {
       control: { type: 'range', min: -45, max: 45 },
     },
     height: {
-      defaultValue: 20,
+      defaultValue: 40,
       control: { type: 'number', min: 1 },
     },
     primaryColor: {
