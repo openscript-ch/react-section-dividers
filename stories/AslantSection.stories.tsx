@@ -16,6 +16,10 @@ export default {
       defaultValue: 20,
       control: { type: 'range', min: -45, max: 45 },
     },
+    otherAngle: {
+      defaultValue: 40,
+      control: { type: 'range', min: -45, max: 45 },
+    },
     height: {
       defaultValue: 40,
       control: { type: 'number', min: 1 },
@@ -33,12 +37,14 @@ export default {
 
 export function Basic({
   angle,
+  otherAngle,
   height,
   primaryColor,
   secondaryColor,
   position,
 }: {
   angle: number;
+  otherAngle: number;
   height: number;
   primaryColor: string;
   secondaryColor: string;
@@ -55,6 +61,7 @@ export function Basic({
       />
       <AslantSection
         angle={angle}
+        otherAngle={otherAngle}
         height={height}
         primaryColor={primaryColor}
         position={position}

@@ -1,19 +1,27 @@
-import { css } from '@emotion/react';
+import { css, SerializedStyles } from '@emotion/react';
 import { HTMLProps } from 'react';
 
 type Props = {
   angle: number;
+  otherAngle?: number;
   height: number;
   primaryColor: string;
-  position?: 'top' | 'bottom';
+  position?: 'top' | 'bottom' | 'both';
 };
 
-export function AslantSection({ css: externalStyles, angle, height, primaryColor, position, ...props }: Props & HTMLProps<HTMLElement>) {
+export function AslantSection({
+  css: externalStyles,
+  angle,
+  otherAngle,
+  height,
+  primaryColor,
+  position,
+  ...props
+}: Props & HTMLProps<HTMLElement>) {
   const baseStyles = css`
     background-color: ${primaryColor};
   `;
-
-  let styles = css``;
+  let styles: SerializedStyles;
 
   if (position === 'bottom') {
     styles = css`
@@ -23,6 +31,17 @@ export function AslantSection({ css: externalStyles, angle, height, primaryColor
         0 calc(100% - ${(height / 90) * (angle + 45)}px),
         100% calc(100% - ${height - (height / 90) * (angle + 45)}px),
         100% 0
+      );
+    `;
+  } else if (position === 'both') {
+    styles = css`
+      border-top: ${height}px solid transparent;
+      border-bottom: ${height}px solid transparent;
+      clip-path: polygon(
+        0 ${(height / 90) * (angle + 45)}px,
+        0 calc(100% - ${(height / 90) * ((otherAngle ?? angle) + 45)}px),
+        100% calc(100% - ${height - (height / 90) * ((otherAngle ?? angle) + 45)}px),
+        100% ${height - (height / 90) * (angle + 45)}px
       );
     `;
   } else {
