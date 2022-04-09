@@ -3,8 +3,9 @@ import { HTMLProps } from 'react';
 
 type Props = {
   angle: number;
-  otherAngle?: number;
+  bottomAngle?: number;
   height: number;
+  bottomHeight?: number;
   primaryColor: string;
   position?: 'top' | 'bottom' | 'both';
 };
@@ -12,8 +13,9 @@ type Props = {
 export function AslantSection({
   css: externalStyles,
   angle,
-  otherAngle,
+  bottomAngle,
   height,
+  bottomHeight,
   primaryColor,
   position,
   ...props
@@ -36,11 +38,11 @@ export function AslantSection({
   } else if (position === 'both') {
     styles = css`
       border-top: ${height}px solid transparent;
-      border-bottom: ${height}px solid transparent;
+      border-bottom: ${bottomHeight ?? height}px solid transparent;
       clip-path: polygon(
         0 ${(height / 90) * (angle + 45)}px,
-        0 calc(100% - ${(height / 90) * ((otherAngle ?? angle) + 45)}px),
-        100% calc(100% - ${height - (height / 90) * ((otherAngle ?? angle) + 45)}px),
+        0 calc(100% - ${((bottomHeight ?? height) / 90) * ((bottomAngle ?? angle) + 45)}px),
+        100% calc(100% - ${(bottomHeight ?? height) - ((bottomHeight ?? height) / 90) * ((bottomAngle ?? angle) + 45)}px),
         100% ${height - (height / 90) * (angle + 45)}px
       );
     `;
