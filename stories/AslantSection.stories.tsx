@@ -36,11 +36,13 @@ export function Basic({
   height,
   primaryColor,
   secondaryColor,
+  position,
 }: {
   angle: number;
   height: number;
   primaryColor: string;
   secondaryColor: string;
+  position?: 'bottom' | 'top';
 }) {
   return (
     <Fragment>
@@ -55,10 +57,11 @@ export function Basic({
         angle={angle}
         height={height}
         primaryColor={primaryColor}
-        secondaryColor={secondaryColor}
+        position={position}
         css={css`
           color: #fff;
           margin-top: -${height}px;
+          margin-bottom: -${height}px;
         `}
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, placeat velit? Sapiente delectus, quo perspiciatis, veniam at porro
@@ -71,6 +74,14 @@ export function Basic({
         Maiores at veniam soluta neque tempore? Non molestiae eum iusto alias vel quisquam ipsum, numquam in molestias minima eius aut, ex
         saepe. Maxime earum molestias voluptates dicta iste iure veniam?
       </AslantSection>
+
+      <SectionDummy
+        css={css`
+          background-color: ${secondaryColor};
+          color: #000;
+          padding-top: ${height}px;
+        `}
+      />
     </Fragment>
   );
 }

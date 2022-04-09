@@ -8,5 +8,5 @@ const styles = css`
 
 export function CustomSVGElement({ css: externalStyles, ...props }: SVGProps<SVGSVGElement>) {
   // eslint-disable-next-line react/jsx-props-no-spreading
-  return <svg {...props} css={[styles, externalStyles]} preserveAspectRatio="none" />;
+  return <svg preserveAspectRatio="none" {...props} css={[styles, externalStyles]} />;
 }
