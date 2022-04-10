@@ -75,7 +75,7 @@ export function Basic({
         css={css`
           color: #fff;
           margin-top: -${height}px;
-          margin-bottom: -${height}px;
+          margin-bottom: -${bottomHeight}px;
         `}
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, placeat velit? Sapiente delectus, quo perspiciatis, veniam at porro
