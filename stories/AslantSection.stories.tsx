@@ -93,7 +93,7 @@ export function Basic({
         css={css`
           background-color: ${secondaryColor};
           color: #000;
-          padding-top: ${height}px;
+          padding-top: ${bottomHeight}px;
         `}
       />
     </Fragment>
