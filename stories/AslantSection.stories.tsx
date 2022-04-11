@@ -122,7 +122,7 @@ export function BackgroundImages({
       <SectionDummy
         css={css`
           background-color: ${secondaryColor};
-          background-image: url(./res/images/photo2.jpg);
+          background-image: url(./res/photo2.jpg);
           background-size: cover cover;
           background-position: center;
           background-repeat: no-repeat;
@@ -139,7 +139,7 @@ export function BackgroundImages({
         position={position}
         css={css`
           color: #fff;
-          background-image: url(./res/images/photo.jpg);
+          background-image: url(./res/photo.jpg);
           background-size: cover cover;
           background-position: center;
           background-repeat: no-repeat;
