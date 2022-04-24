@@ -63,7 +63,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.17.9",
-    "@emotion/babel-plugin": "11.7.2",
+    "@emotion/babel-plugin": "11.9.2",
     "@emotion/react": "11.9.0",
     "@size-limit/preset-small-lib": "7.0.8",
     "@storybook/addon-actions": "6.4.21",
