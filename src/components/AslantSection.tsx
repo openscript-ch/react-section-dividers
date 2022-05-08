@@ -1,8 +1,9 @@
 import { css, SerializedStyles } from '@emotion/react';
-import { HTMLProps } from 'react';
+import { ElementType, HTMLProps } from 'react';
 
 type Props = {
   angle: number;
+  as?: ElementType;
   bottomAngle?: number;
   height: number;
   bottomHeight?: number;
@@ -12,6 +13,7 @@ type Props = {
 
 export function AslantSection({
   css: externalStyles,
+  as: Section = 'section',
   angle,
   bottomAngle,
   height,
@@ -53,5 +55,5 @@ export function AslantSection({
     `;
   }
   // eslint-disable-next-line react/jsx-props-no-spreading
-  return <section css={[baseStyles, styles, externalStyles]} {...props} />;
+  return <Section css={[baseStyles, styles, externalStyles]} {...props} />;
 }
