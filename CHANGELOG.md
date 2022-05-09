@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.4.0](https://github.com/openscript-ch/react-section-dividers/compare/v0.3.0...v0.4.0) (2022-05-09)
+
+
+### 📚 Documentations
+
+* **readme:** update readme ([25abe4e](https://github.com/openscript-ch/react-section-dividers/commit/25abe4edd5a3814498854bdfc5af4fe7f9c798fa))
+
+
+### 🐛 Bug Fixes
+
+* **aslant:** export aslant section component ([603b57a](https://github.com/openscript-ch/react-section-dividers/commit/603b57ade85ac21c861288ffdd5ddc63ee51ac62))
+
+
+### 🚀 Features
+
+* **rebound:** add rebound divider ([0bf4763](https://github.com/openscript-ch/react-section-dividers/commit/0bf476333f0d800f758c31fbf97de9a94d51144f))
+* **rebound:** add rebound section ([2f2044e](https://github.com/openscript-ch/react-section-dividers/commit/2f2044e705279c4a51207f7cdbd56ece3870aee1))
+
 ## 0.3.0 (2022-05-08)
 
 
