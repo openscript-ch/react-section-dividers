@@ -1,24 +1,24 @@
 import { css } from '@emotion/react';
 import { Fragment } from 'react';
-import { AslantSection } from '../src';
+import { ReboundSection } from '../src';
 import { SectionDummy } from './components/SectionDummy';
 
 export default {
-  title: 'Aslant/Section',
-  component: AslantSection,
+  title: 'Rebound/Section',
+  component: ReboundSection,
   parameters: {
     docs: {
       page: null,
     },
   },
   argTypes: {
-    angle: {
+    rebound: {
       defaultValue: 20,
-      control: { type: 'range', min: -45, max: 45 },
+      control: { type: 'range', min: 0, max: 100 },
     },
-    bottomAngle: {
+    bottomRebound: {
       defaultValue: 40,
-      control: { type: 'range', min: -45, max: 45 },
+      control: { type: 'range', min: 0, max: 100 },
     },
     height: {
       defaultValue: 40,
@@ -40,16 +40,16 @@ export default {
 };
 
 export function Basic({
-  angle,
-  bottomAngle,
+  rebound,
+  bottomRebound,
   height,
   bottomHeight,
   primaryColor,
   secondaryColor,
   position,
 }: {
-  angle: number;
-  bottomAngle: number;
+  rebound: number;
+  bottomRebound: number;
   height: number;
   bottomHeight: number;
   primaryColor: string;
@@ -65,9 +65,9 @@ export function Basic({
           padding-bottom: ${height}px;
         `}
       />
-      <AslantSection
-        angle={angle}
-        bottomAngle={bottomAngle}
+      <ReboundSection
+        rebound={rebound}
+        bottomRebound={bottomRebound}
         height={height}
         bottomHeight={bottomHeight}
         primaryColor={primaryColor}
@@ -87,7 +87,7 @@ export function Basic({
         obcaecati quos distinctio tenetur delectus repellat error reiciendis laborum? Ratione veniam illum odio tempora ad voluptates natus?
         Maiores at veniam soluta neque tempore? Non molestiae eum iusto alias vel quisquam ipsum, numquam in molestias minima eius aut, ex
         saepe. Maxime earum molestias voluptates dicta iste iure veniam?
-      </AslantSection>
+      </ReboundSection>
 
       <SectionDummy
         css={css`
@@ -101,16 +101,16 @@ export function Basic({
 }
 
 export function BackgroundImages({
-  angle,
-  bottomAngle,
+  rebound,
+  bottomRebound,
   height,
   bottomHeight,
   primaryColor,
   secondaryColor,
   position,
 }: {
-  angle: number;
-  bottomAngle: number;
+  rebound: number;
+  bottomRebound: number;
   height: number;
   bottomHeight: number;
   primaryColor: string;
@@ -130,9 +130,9 @@ export function BackgroundImages({
           padding-bottom: ${height}px;
         `}
       />
-      <AslantSection
-        angle={angle}
-        bottomAngle={bottomAngle}
+      <ReboundSection
+        rebound={rebound}
+        bottomRebound={bottomRebound}
         height={height}
         bottomHeight={bottomHeight}
         primaryColor={primaryColor}
@@ -156,7 +156,7 @@ export function BackgroundImages({
         obcaecati quos distinctio tenetur delectus repellat error reiciendis laborum? Ratione veniam illum odio tempora ad voluptates natus?
         Maiores at veniam soluta neque tempore? Non molestiae eum iusto alias vel quisquam ipsum, numquam in molestias minima eius aut, ex
         saepe. Maxime earum molestias voluptates dicta iste iure veniam?
-      </AslantSection>
+      </ReboundSection>
 
       <SectionDummy
         css={css`
