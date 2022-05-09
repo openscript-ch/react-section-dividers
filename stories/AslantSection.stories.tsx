@@ -1,6 +1,6 @@
 import { css } from '@emotion/react';
 import { Fragment } from 'react';
-import { AslantSection } from '../src/components/AslantSection';
+import { AslantSection } from '../src';
 import { SectionDummy } from './components/SectionDummy';
 
 export default {
