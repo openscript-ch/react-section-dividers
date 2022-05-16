@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.2](https://github.com/openscript-ch/react-section-dividers/compare/v0.4.1...v0.4.2) (2022-05-16)
+
+
+### 🐛 Bug Fixes
+
+* **package.json:** set correct paths for npm packaging ([457b03d](https://github.com/openscript-ch/react-section-dividers/commit/457b03d9f7eb87fc71f39595ebbb9eddf74e8962))
+
 ### [0.4.1](https://github.com/openscript-ch/react-section-dividers/compare/v0.4.0...v0.4.1) (2022-05-13)
 
 ## [0.4.0](https://github.com/openscript-ch/react-section-dividers/compare/v0.3.0...v0.4.0) (2022-05-09)
