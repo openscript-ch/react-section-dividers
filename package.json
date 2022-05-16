@@ -20,15 +20,12 @@
   },
   "author": "openscript GmbH <hi+npm@openscript.ch>",
   "license": "MIT",
-  "files": [
-    "dist"
-  ],
-  "main": "./dist/react-section-dividers.umd.js",
-  "module": "./dist/react-section-dividers.es.js",
+  "main": "./react-section-dividers.umd.js",
+  "module": "./react-section-dividers.es.js",
   "exports": {
     ".": {
-      "import": "./dist/react-section-dividers.es.js",
-      "require": "./dist/react-section-dividers.umd.js"
+      "import": "./react-section-dividers.es.js",
+      "require": "./react-section-dividers.umd.js"
     }
   },
   "size-limit": [
