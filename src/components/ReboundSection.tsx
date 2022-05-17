@@ -7,7 +7,7 @@ type Props = {
   bottomRebound?: number;
   height: number;
   bottomHeight?: number;
-  primaryColor: string;
+  primaryColor?: string;
   position?: 'top' | 'bottom' | 'both';
 };
 
@@ -23,7 +23,7 @@ export function ReboundSection({
   ...props
 }: Props & HTMLProps<HTMLElement>) {
   const baseStyles = css`
-    background-color: ${primaryColor};
+    background-color: ${primaryColor ?? '#000000'};
   `;
   let styles: SerializedStyles;
 
