@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.3](https://github.com/openscript-ch/react-section-dividers/compare/v0.4.2...v0.4.3) (2022-05-17)
+
+
+### 🚀 Features
+
+* **rebound:** make primary color optional ([9c7c817](https://github.com/openscript-ch/react-section-dividers/commit/9c7c8178f659c10b26747031a0b7b4fa3ea1bab0))
+
 ### [0.4.2](https://github.com/openscript-ch/react-section-dividers/compare/v0.4.1...v0.4.2) (2022-05-16)
 
 
