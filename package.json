@@ -62,7 +62,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@babel/core": "7.17.12",
+    "@babel/core": "7.18.0",
     "@size-limit/preset-small-lib": "7.0.8",
     "@storybook/addon-actions": "6.4.22",
     "@storybook/addon-docs": "6.4.22",
