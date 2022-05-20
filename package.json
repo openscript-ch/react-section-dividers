@@ -55,12 +55,12 @@
     "upgrade-interactive": "npm-check -u"
   },
   "peerDependencies": {
-    "@emotion/babel-plugin": "^11.9.2",
     "@emotion/react": "^11.9.0",
     "react": "^17.0.0 || ^18.0.0",
     "react-dom": "^17.0.0 || ^18.0.0"
   },
   "devDependencies": {
+    "@emotion/babel-plugin": "^11.9.2",
     "@babel/core": "^7.18.0",
     "@size-limit/preset-small-lib": "7.0.8",
     "@storybook/addon-actions": "6.4.22",

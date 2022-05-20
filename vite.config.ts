@@ -12,10 +12,21 @@ export default defineConfig({
       fileName: (format) => `react-section-dividers.${format}.js`,
     },
     rollupOptions: {
-      external: ['react'],
+      external: [
+        'react',
+        'react-dom',
+        '@emotion/core',
+        '@emotion/react',
+        '@emotion/css',
+        '@emotion/styled',
+        '@emotion/cache',
+        '@emotion/serialize',
+        '@emotion/utils',
+      ],
       output: {
         globals: {
           react: 'React',
+          '@emotion/react': '@emotion/react',
         },
       },
     },
