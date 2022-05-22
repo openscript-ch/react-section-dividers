@@ -3,6 +3,14 @@ import react from '@vitejs/plugin-react';
 import dts from 'vite-plugin-dts';
 import packageJson from './package.json';
 
+const makeExternalPredicate = (externals: string[]) => {
+  if (externals.length === 0) {
+    return () => false;
+  }
+  const pattern = new RegExp(`^(${externals.join('|')})($|/)`);
+  return (id: string) => pattern.test(id);
+};
+
 // https://vitejs.dev/config/
 export default defineConfig({
   build: {
@@ -12,20 +20,10 @@ export default defineConfig({
       fileName: (format) => `react-section-dividers.${format}.js`,
     },
     rollupOptions: {
-      external: [
-        'react',
-        'react-dom',
-        '@emotion/cache',
-        '@emotion/hash',
-        '@emotion/is-prop-valid',
-        '@emotion/memoize',
-        '@emotion/react',
-        '@emotion/serialize',
-        '@emotion/styled',
-        '@emotion/styled/base',
-        '@emotion/unitless',
-        '@emotion/utils',
-      ],
+      external: makeExternalPredicate([
+        ...Object.keys(packageJson.dependencies),
+        ...Object.keys(packageJson.peerDependencies)
+      ]),
       output: {
         globals: {
           react: 'React',
