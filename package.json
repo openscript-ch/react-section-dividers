@@ -54,6 +54,7 @@
     "coverage": "vitest --coverage",
     "upgrade-interactive": "npm-check -u"
   },
+  "dependencies": {},
   "peerDependencies": {
     "@emotion/react": "^11.9.0",
     "react": "^17.0.0 || ^18.0.0",
