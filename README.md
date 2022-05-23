@@ -20,9 +20,10 @@ Besides `react` and `react-dom` this package has `@emotion/react` as a peer depe
 
 ## Dividers
 
-### Aslant
-
-A line at an angle.
+| Name             | Description                               | Preview                                |
+| ---------------- | ----------------------------------------- | -------------------------------------- |
+| <h3>Aslant</h3>  | Division by a line which is not straight. | ![Aslant preview](./docs/aslant.png)   |
+| <h3>Rebound</h3> | Division by a line which bounces back.    | ![Rebound preview](./docs/rebound.png) |
 
 ## Resources
 
