@@ -20,10 +20,7 @@ export default defineConfig({
       fileName: (format) => `react-section-dividers.${format}.js`,
     },
     rollupOptions: {
-      external: makeExternalPredicate([
-        ...Object.keys(packageJson.dependencies),
-        ...Object.keys(packageJson.peerDependencies)
-      ]),
+      external: makeExternalPredicate([...Object.keys(packageJson.dependencies), ...Object.keys(packageJson.peerDependencies)]),
       output: {
         globals: {
           react: 'React',
