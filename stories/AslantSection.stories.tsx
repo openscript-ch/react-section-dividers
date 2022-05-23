@@ -123,7 +123,7 @@ export function BackgroundImages({
         css={css`
           background-color: ${secondaryColor};
           background-image: url(./res/photo2.jpg);
-          background-size: cover cover;
+          background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
           color: #000;
@@ -140,7 +140,7 @@ export function BackgroundImages({
         css={css`
           color: #fff;
           background-image: url(./res/photo.jpg);
-          background-size: cover cover;
+          background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
           margin-top: -${height}px;
