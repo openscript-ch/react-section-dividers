@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="px"
      showgrid="true"
-     inkscape:zoom="1.8101934"
-     inkscape:cx="207.71262"
-     inkscape:cy="386.97524"
+     inkscape:zoom="3.6203867"
+     inkscape:cx="82.587863"
+     inkscape:cy="188.23956"
      inkscape:window-width="2560"
      inkscape:window-height="1379"
      inkscape:window-x="0"
@@ -91,90 +91,84 @@
          y="17.061296" /></text>
     <g
        id="g19186"
-       transform="translate(-7.394453,-3.3541443)">
+       transform="matrix(0.5,0,0,0.5,1.4175416,3.5847942)">
       <path
          id="rect11564-3"
-         style="fill:#7f2aff;stroke-width:0.208879"
-         d="m 23.269452,13.877877 c -2.931583,0 -5.291666,2.360083 -5.291666,5.291665 V 33.721625 H 57.665288 V 19.169542 c 0,-2.931582 -2.36009,-5.291665 -5.29167,-5.291665 z" />
+         style="fill:#7f2aff;stroke-width:1.05833333;stroke:#ffffff;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m 23.620242,13.877877 c -2.931583,0 -5.291666,2.360083 -5.291666,5.291665 V 33.721625 H 58.016078 V 19.169542 c 0,-2.931582 -2.36009,-5.291665 -5.29167,-5.291665 z" />
       <path
          id="rect11564-3-6"
-         style="fill:#c837ab;stroke-width:0.208879"
-         d="m 23.269452,53.565374 c -2.931583,0 -5.291666,-2.360083 -5.291666,-5.291666 l 6.1e-5,-14.552083 h 39.687441 v 14.552083 c 0,2.931583 -2.36009,5.291666 -5.29167,5.291666 z"
+         style="fill:#c837ab;stroke-width:1.05833333;stroke-miterlimit:4;stroke-dasharray:none;stroke:#ffffff;stroke-opacity:1"
+         d="m 23.620242,53.565374 c -2.931583,0 -5.291666,-2.360083 -5.291666,-5.291666 l 6.1e-5,-14.552083 h 39.687441 v 14.552083 c 0,2.931583 -2.36009,5.291666 -5.29167,5.291666 z"
          sodipodi:nodetypes="ssccsss" />
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="56.352036"
-       y="33.119141"
+       style="font-style:normal;font-weight:normal;font-size:5.29165px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132291"
+       x="33.466183"
+       y="21.821436"
        id="text16720"><tspan
          sodipodi:role="line"
          id="tspan16718"
-         style="stroke-width:0.264583"
-         x="56.352036"
-         y="33.119141">Template</tspan></text>
+         style="stroke-width:0.132291"
+         x="33.466183"
+         y="21.821436">Template</tspan></text>
     <g
        id="g19186-2"
-       transform="translate(-7.3944842,94.601291)">
+       transform="matrix(0.5,0,0,0.5,1.5929209,52.562512)"
+       inkscape:export-filename="/home/rdex/Workspace/github.com/openscript-ch/react-section-dividers/docs/rebound.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       style="stroke-width:1.000125;stroke-miterlimit:4;stroke-dasharray:none">
       <path
          id="rect11564-3-7"
-         style="fill:#7f2aff;stroke-width:0.208879"
-         d="m 23.269452,13.877877 c -2.931583,0 -5.291666,2.360083 -5.291666,5.291665 v 21.166667 l 39.687502,0 V 19.169542 c 0,-2.931582 -2.36009,-5.291665 -5.29167,-5.291665 z"
+         style="fill:#7f2aff;stroke-width:1.05833333;stroke-miterlimit:4;stroke-dasharray:none;stroke:#fffeff;stroke-opacity:1"
+         d="m 23.269452,13.877877 c -2.931583,0 -5.291666,2.360083 -5.291666,5.291665 V 40.336209 H 57.665288 V 19.169542 c 0,-2.931582 -2.36009,-5.291665 -5.29167,-5.291665 z"
          sodipodi:nodetypes="ssccsss" />
       <path
          id="rect11564-3-6-0"
-         style="fill:#c837ab;stroke-width:0.208879"
+         style="fill:#c837ab;stroke-width:1.05833333;stroke-miterlimit:4;stroke-dasharray:none;stroke:#ffffff;stroke-opacity:1"
          d="m 23.269452,53.565374 c -2.931583,0 -5.291666,-2.360083 -5.291666,-5.291666 l 6.1e-5,-7.937499 27.138348,-13.229167 12.549093,13.229167 v 7.937499 c 0,2.931583 -2.36009,5.291666 -5.29167,5.291666 z"
          sodipodi:nodetypes="sscccsss" />
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="56.352001"
-       y="131.07458"
+       style="font-style:normal;font-weight:normal;font-size:5.29165px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132291"
+       x="33.466164"
+       y="70.799156"
        id="text16720-9"><tspan
          sodipodi:role="line"
          id="tspan16718-3"
-         style="stroke-width:0.264583"
-         x="56.352001"
-         y="131.07458">Rebound</tspan></text>
+         style="stroke-width:0.132291"
+         x="33.466164"
+         y="70.799156">Rebound</tspan></text>
     <g
        id="g19186-3"
-       transform="translate(-7.3944842,45.653375)">
+       transform="matrix(0.5,0,0,0.5,1.5929209,28.088554)"
+       inkscape:export-filename="/home/rdex/Workspace/github.com/openscript-ch/react-section-dividers/docs/aslant.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <path
          id="rect11564-3-5"
-         style="fill:#7f2aff;stroke-width:0.208879"
+         style="fill:#7f2aff;stroke-width:1.05833333;stroke-miterlimit:4;stroke-dasharray:none;stroke:#ffffff;stroke-opacity:1"
          d="m 23.269452,13.877877 c -2.931583,0 -5.291666,2.360083 -5.291666,5.291665 v 7.937499 L 57.665288,40.336208 V 19.169542 c 0,-2.931582 -2.36009,-5.291665 -5.29167,-5.291665 z"
          sodipodi:nodetypes="ssccsss" />
       <path
          id="rect11564-3-6-6"
-         style="fill:#c837ab;stroke-width:0.208879"
+         style="fill:#c837ab;stroke-width:1.05833333;stroke-miterlimit:4;stroke-dasharray:none;stroke:#ffffff;stroke-opacity:1"
          d="m 23.269452,53.565374 c -2.931583,0 -5.291666,-2.360083 -5.291666,-5.291666 l 6.1e-5,-21.166666 39.687441,13.229166 v 7.9375 c 0,2.931583 -2.36009,5.291666 -5.29167,5.291666 z"
          sodipodi:nodetypes="ssccsss" />
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="56.352005"
-       y="82.126663"
+       style="font-style:normal;font-weight:normal;font-size:5.29165px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132291"
+       x="33.466167"
+       y="46.325199"
        id="text16720-2"><tspan
          sodipodi:role="line"
          id="tspan16718-9"
-         style="stroke-width:0.264583"
-         x="56.352005"
-         y="82.126663">Aslant</tspan></text>
-    <path
-       style="fill:#ffffff;stroke:#ffffff;stroke-width:0.52916667;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 10.583333,72.760416 39.6875,13.229166"
-       id="path24152" />
-    <path
-       style="fill:#ffffff;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 10.583333,30.427083 h 39.6875"
-       id="path24152-1"
-       sodipodi:nodetypes="cc" />
-    <path
-       style="fill:none;stroke:#ffffff;stroke-width:0.52916667;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 10.583302,134.9375 27.13841,-13.22917 12.549092,13.22917"
-       id="path28369" />
+         style="stroke-width:0.132291"
+         x="33.466167"
+         y="46.325199">Aslant</tspan></text>
   </g>
 </svg>
