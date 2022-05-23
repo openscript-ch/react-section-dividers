@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.12](https://github.com/openscript-ch/react-section-dividers/compare/v0.4.11...v0.4.12) (2022-05-23)
+
+
+### 🐛 Bug Fixes
+
+* externalize Emotion ([26edde1](https://github.com/openscript-ch/react-section-dividers/commit/26edde1a81357e8f20cc50460fdc8865a659bd45))
+
 ### [0.4.11](https://github.com/openscript-ch/react-section-dividers/compare/v0.4.10...v0.4.11) (2022-05-21)
 
 ### [0.4.10](https://github.com/openscript-ch/react-section-dividers/compare/v0.4.9...v0.4.10) (2022-05-20)
