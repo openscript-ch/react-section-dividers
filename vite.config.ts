@@ -25,6 +25,7 @@ export default defineConfig({
         globals: {
           react: 'React',
           '@emotion/react': '@emotion/react',
+          '@emotion/react/jsx-runtime': 'jsxRuntime',
         },
       },
     },
