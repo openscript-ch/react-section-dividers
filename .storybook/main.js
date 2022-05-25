@@ -2,7 +2,7 @@ const react = require("@vitejs/plugin-react");
 
 module.exports = {
   stories: ["../stories/Start.stories.mdx", "../stories/**/*.stories.mdx", "../stories/**/*.stories.@(js|jsx|ts|tsx)"],
-  staticDirs: [{ from: '../res', to: '/res'}],
+  staticDirs: [{ from: '../res', to: '/res'}, { from: '../docs', to: '/docs'}],
   addons: [{
     name: '@storybook/addon-docs',
     options: {
