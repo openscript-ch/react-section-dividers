@@ -39,23 +39,18 @@ export default {
   },
 };
 
-export function Basic({
-  rebound,
-  bottomRebound,
-  height,
-  bottomHeight,
-  primaryColor,
-  secondaryColor,
-  position,
-}: {
+type StoryProps = {
   rebound: number;
-  bottomRebound: number;
+  bottomRebound?: number;
   height: number;
-  bottomHeight: number;
-  primaryColor: string;
-  secondaryColor: string;
-  position?: 'bottom' | 'top';
-}) {
+  bottomHeight?: number;
+  position?: 'top' | 'bottom' | 'both';
+  flip?: 'top' | 'bottom' | 'both' | 'none';
+  primaryColor?: string;
+  secondaryColor?: string;
+};
+
+export function Basic({ rebound, bottomRebound, height, bottomHeight, primaryColor, secondaryColor, position, flip }: StoryProps) {
   return (
     <Fragment>
       <SectionDummy
@@ -72,6 +67,7 @@ export function Basic({
         bottomHeight={bottomHeight}
         primaryColor={primaryColor}
         position={position}
+        flip={flip}
         css={css`
           color: #fff;
           margin-top: -${height}px;
@@ -108,15 +104,8 @@ export function BackgroundImages({
   primaryColor,
   secondaryColor,
   position,
-}: {
-  rebound: number;
-  bottomRebound: number;
-  height: number;
-  bottomHeight: number;
-  primaryColor: string;
-  secondaryColor: string;
-  position?: 'bottom' | 'top';
-}) {
+  flip,
+}: StoryProps) {
   return (
     <Fragment>
       <SectionDummy
@@ -137,6 +126,7 @@ export function BackgroundImages({
         bottomHeight={bottomHeight}
         primaryColor={primaryColor}
         position={position}
+        flip={flip}
         css={css`
           color: #fff;
           background-image: url(./res/photo.jpg);

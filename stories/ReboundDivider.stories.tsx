@@ -34,11 +34,13 @@ export default {
 export function Basic({
   rebound,
   height,
+  flip,
   primaryColor,
   secondaryColor,
 }: {
   rebound: number;
   height: number;
+  flip: boolean;
   primaryColor: string;
   secondaryColor: string;
 }) {
@@ -50,7 +52,7 @@ export function Basic({
           color: #000;
         `}
       />
-      <ReboundDivider rebound={rebound} height={height} primaryColor={primaryColor} secondaryColor={secondaryColor} />
+      <ReboundDivider rebound={rebound} height={height} flip={flip} primaryColor={primaryColor} secondaryColor={secondaryColor} />
       <SectionDummy
         css={css`
           background-color: ${primaryColor};
