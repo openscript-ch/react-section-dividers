@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.5.0](https://github.com/openscript-ch/react-section-dividers/compare/v0.4.12...v0.5.0) (2022-05-29)
+
+
+### 📚 Documentations
+
+* **readme:** describe dividers ([0713c19](https://github.com/openscript-ch/react-section-dividers/commit/0713c19249b64777ef4adb4e9d82ce0d911ab2f9))
+* **readme:** mention peer dependencies ([7619a36](https://github.com/openscript-ch/react-section-dividers/commit/7619a36261bd885a8845cd2f001540d566d30e42))
+
+
+### 🐛 Bug Fixes
+
+* **package:** add dependency object ([6cf3921](https://github.com/openscript-ch/react-section-dividers/commit/6cf3921b23033558cfb93a9523f00a65723a49f8))
+* **storybook:** copy docs content to static dirs ([e61cf2b](https://github.com/openscript-ch/react-section-dividers/commit/e61cf2b2093ecd19b902a64760819cb666b1d12f))
+* **storybook:** show addons panel by default ([f336d0c](https://github.com/openscript-ch/react-section-dividers/commit/f336d0c72d1e3b839c0cd253179b54c4f7524896))
+
+
+### 🚀 Features
+
+* **rebound:** add flip option ([785504f](https://github.com/openscript-ch/react-section-dividers/commit/785504f7a4cfef8a0400849b7fd583dddc220370))
+
 ### [0.4.12](https://github.com/openscript-ch/react-section-dividers/compare/v0.4.11...v0.4.12) (2022-05-23)
 
 
