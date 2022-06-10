@@ -65,10 +65,10 @@ export function Basic({ rebound, bottomRebound, height, bottomHeight, primaryCol
         bottomRebound={bottomRebound}
         height={height}
         bottomHeight={bottomHeight}
-        primaryColor={primaryColor}
         position={position}
         flip={flip}
         css={css`
+          background-color: ${primaryColor};
           color: #fff;
           margin-top: -${height}px;
           margin-bottom: -${bottomHeight}px;
@@ -124,11 +124,11 @@ export function BackgroundImages({
         bottomRebound={bottomRebound}
         height={height}
         bottomHeight={bottomHeight}
-        primaryColor={primaryColor}
         position={position}
         flip={flip}
         css={css`
           color: #fff;
+          background-color: ${primaryColor};
           background-image: url(./res/photo.jpg);
           background-size: cover;
           background-position: center;

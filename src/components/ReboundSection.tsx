@@ -9,7 +9,6 @@ type Props = {
   bottomHeight?: number;
   position?: 'top' | 'bottom' | 'both';
   flip?: 'top' | 'bottom' | 'both' | 'none';
-  primaryColor?: string;
   as?: ElementType;
 };
 
@@ -20,14 +19,10 @@ export function ReboundSection({
   bottomRebound,
   height,
   bottomHeight,
-  primaryColor,
   position = 'top',
   flip = 'none',
   ...props
 }: Props & HTMLProps<HTMLElement>) {
-  const baseStyles = css`
-    background-color: ${primaryColor ?? '#000000'};
-  `;
   const polygon = [
     position === 'top' ? '0 100%' : flip !== 'none' && flip !== 'bottom' ? `0 100%` : `0 calc(100% - ${bottomHeight ?? height}px)`,
     position === 'top'
@@ -48,5 +43,5 @@ export function ReboundSection({
   `;
 
   // eslint-disable-next-line react/jsx-props-no-spreading
-  return <Section css={[baseStyles, styles, externalStyles]} {...props} />;
+  return <Section css={[styles, externalStyles]} {...props} />;
 }
