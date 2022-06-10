@@ -64,7 +64,6 @@
     "@babel/core": "^7.18.2",
     "@emotion/babel-plugin": "^11.9.2",
     "@emotion/react": "^11.9.0",
-    "@mdx-js/react": "^1.6.22",
     "@size-limit/preset-small-lib": "7.0.8",
     "@storybook/addon-actions": "^6.5.8",
     "@storybook/addon-docs": "^6.5.8",
